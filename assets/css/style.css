@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center; 
+padding: 100px 20px;  
+font-size: 24px;
+}
+
+header img {
+  display: block;    
+  margin: 20px auto;
+  width: 100%;        
+  border-radius: 10px; 
+}
+
+
+.showcase {
+  background-image: url('./images/IMGSEA.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1228px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #926239;
+  
+}
+
+#section1 {
+  color: white;
+  display: block;
+  padding: 25px;
+  background-color: #926239;
+  text-align: center;
+}
+
+#section2 {
+  color: #926239;
+  display: block;
+  padding: 25px;
+  background-color: rgb(244, 244, 244);
+  text-align: center;
+}
+
+#section3 {
+  display: flex;             
+  gap: 0;                    
+  width: 100%;               
+}
+
+
+.box1, .box2, .box3 {
+  flex: 1;                   
+  padding: 30px;             
+  text-align: center;        
+}
+
+
+.box1, .box3 {
+  background-color: #926239;
+  color: white;
+}
+
+
+.box2 {
+  background-color: white; 
+  color: #926239;
+}
+
+
+#button {
+  display: inline-block;
+  padding: 10px 22px;
+
+  background-color: transparent;
+
+  border: 2px solid #926239;
+
+  color: #926239;
+
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 500;
+}
+#button:hover {
+  background-color: #926239;
+
+  color: #ffffff;
+}
