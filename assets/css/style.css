@@ -35,6 +35,10 @@ header {
   color: white;
   background-color: #926239;
 }
+.light {
+  color: #926239;
+  background-color: rgb(244, 244, 244);
+}
 
 .boxes {
   font-size: 0;
