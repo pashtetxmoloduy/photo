@@ -4,92 +4,66 @@
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #926239;
+  background-color: rgb(244, 244, 244);
+}
+
 header {
-  text-align: center; 
-padding: 100px 20px;  
-font-size: 24px;
+  text-align: center;
+  padding: 35vh 20px;
+  font-size: 20px;
 }
-
-header img {
-  display: block;    
-  margin: 20px auto;
-  width: 100%;        
-  border-radius: 10px; 
-}
-
 
 .showcase {
-  background-image: url('./images/IMGSEA.jpg'); 
+  background-image: url("./images/IMGSEA.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 1228px; 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #926239;
-  
+  height: 100vh;
 }
 
-#section1 {
-  color: white;
-  display: block;
+.format-text {
   padding: 25px;
-  background-color: #926239;
   text-align: center;
 }
 
-#section2 {
-  color: #926239;
-  display: block;
-  padding: 25px;
-  background-color: rgb(244, 244, 244);
-  text-align: center;
-}
-
-#section3 {
-  display: flex;             
-  gap: 0;                    
-  width: 100%;               
-}
-
-
-.box1, .box2, .box3 {
-  flex: 1;                   
-  padding: 30px;             
-  text-align: center;        
-}
-
-
-.box1, .box3 {
-  background-color: #926239;
+.dark {
   color: white;
+  background-color: #926239;
 }
 
-
-.box2 {
-  background-color: white; 
-  color: #926239;
+.boxes {
+  font-size: 0;
 }
 
-
-#button {
+.box {
   display: inline-block;
-  padding: 10px 22px;
+  width: 33.33%;
+  padding: 30px;
+  font-size: 17px;
+}
+
+.button {
+  display: inline-block;
+  padding: 18px 22px;
+  margin-top: 20px;
 
   background-color: transparent;
+  color: #926239;
 
   border: 2px solid #926239;
 
-  color: #926239;
-
   text-decoration: none;
   border-radius: 12px;
+  font-size: 18px;
   font-weight: 500;
 }
-#button:hover {
-  background-color: #926239;
 
+.button:hover {
+  background-color: #926239;
   color: #ffffff;
 }
